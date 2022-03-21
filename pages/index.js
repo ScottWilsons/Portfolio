@@ -13,10 +13,11 @@ export default function Home() {
       </nav>
       <br></br>
       <hr></hr>
+      <br></br>
       <main className={styles.main}>
         <div className={styles.titleBox}>
           <div>
-            <h1 className={styles.title}>Hi, I'm Scott Wilson</h1>
+            <h1 className={styles.title}>Hi, I am Scott Wilson</h1>
             <h3>Welcome to my portfolio</h3>
           </div>
           <div>

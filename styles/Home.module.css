@@ -2,7 +2,6 @@
   display: flex;
   margin-top: 2%;
   justify-content: space-around;
-  border: solid 0px black;
   border-radius: 25px;
   background-image: linear-gradient(to right, purple, transparent);
 }
@@ -11,27 +10,29 @@
   padding: 0 2rem;
 }
 
-/* .main {
+.main {
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
-} */
+}
 .imageBox {
   border-radius: 100px;
   justify-self: center;
+  /* border: solid 10px black; */
 }
 
 .titleBox {
   display: flex;
   border-radius: 100px;
   background-image: linear-gradient(to right, transparent, orange);
-  width: 100%;
-  height: 50%;
+  width: 70%;
+  height: 200px;
   padding-left: 5%;
+  padding-bottom: 0%;
   justify-content: space-between;
 }
 
