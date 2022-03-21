@@ -26,7 +26,7 @@ export default function Home() {
               alt="A picture of me"
               height={200}
               width={200}
-              src="/../public/1576483373136.jpeg"
+              src="/../static/1576483373136.jpeg"
             />
           </div>
         </div>
