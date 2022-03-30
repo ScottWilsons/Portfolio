@@ -32,10 +32,7 @@ export default function Home() {
         </div>
         <div className={styles.aboutBox}>
           <h2 className={styles.title}>About Me:</h2>
-          <h6>
-            I am a blah blah blah
-            vxccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-          </h6>
+          <h6>about me text</h6>
         </div>
       </main>
     </div>
