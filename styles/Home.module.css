@@ -28,7 +28,7 @@
 .titleBox {
   display: flex;
   border-radius: 100px;
-  background-image: linear-gradient(to right, transparent, orange);
+  background-image: linear-gradient(to right, transparent, darkorange);
   width: 70%;
   height: 200px;
   padding-left: 5%;
@@ -41,7 +41,17 @@
   line-height: 1.15;
   font-size: 4rem;
 }
-
+.aboutBox {
+  margin-top: 4%;
+  display: flex;
+  border-radius: 100px;
+  background-image: linear-gradient(to left, transparent, cyan);
+  width: 70%;
+  height: 200px;
+  padding-left: 5%;
+  padding-bottom: 0%;
+  justify-content: space-around;
+}
 @media (max-width: 600px) {
   .grid {
     width: 100%;

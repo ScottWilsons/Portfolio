@@ -17,8 +17,8 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.titleBox}>
           <div>
-            <h1 className={styles.title}>Hi, I am Scott Wilson</h1>
-            <h3>Welcome to my portfolio</h3>
+            <h1 className={styles.title}>Hi, I am Scott Wilson.</h1>
+            <h2>Welcome to my portfolio</h2>
           </div>
           <div>
             <Image
@@ -30,12 +30,13 @@ export default function Home() {
             />
           </div>
         </div>
-        {/* <Image
-          width={600}
-          height={400}
-          alt="picture of a computer"
-          src="https://images.unsplash.com/photo-1587831990711-23ca6441447b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80"
-        /> */}
+        <div className={styles.aboutBox}>
+          <h2 className={styles.title}>About Me:</h2>
+          <h6>
+            I am a blah blah blah
+            vxccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+          </h6>
+        </div>
       </main>
     </div>
   );
