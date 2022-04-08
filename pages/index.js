@@ -1,16 +1,12 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import NavBar from "../Components/NavBar";
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <nav className={styles.nav}>
-        <div>Home </div>
-        <div>About me</div>
-        <div>Projects</div>
-        <div>Contact me</div>
-      </nav>
+    <NavBar/>
       <br></br>
       <hr></hr>
       <br></br>
