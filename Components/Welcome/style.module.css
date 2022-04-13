@@ -1,26 +1,15 @@
-.container {
-  padding: 0 2rem;
-  color: whitesmoke;
+.imageBox {
+  border-radius: 100px;
+  justify-self: center;
 }
-
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  /* justify-content: center; */
-  align-items: center;
-}
-
 .title {
   color: whitesmoke;
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
 }
-.aboutBox {
-  margin-top: 4%;
+.titleBox {
+  color: whitesmoke;
   display: flex;
   border-radius: 100px;
   background-color: #364d79;
@@ -28,7 +17,7 @@
   height: 200px;
   padding-left: 5%;
   padding-bottom: 0%;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 @media (max-width: 600px) {
   .grid {
