@@ -13,8 +13,8 @@ function Welcome() {
         <Image
           className={css.imageBox}
           alt="A picture of me"
-          height={200}
-          width={200}
+          height={300}
+          width={300}
           src="https://i.imgur.com/A212bxt.jpg"
         />
       </div>

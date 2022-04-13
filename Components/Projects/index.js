@@ -4,8 +4,8 @@ import { Carousel } from "antd";
 import css from "./style.module.css";
 
 const contentStyle = {
-  borderRadius: 100,
-  height: "200px",
+  borderRadius: 150,
+  height: "300px",
   color: "#fff",
   lineHeight: "160px",
   textAlign: "center",

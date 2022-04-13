@@ -4,6 +4,7 @@ import NavBar from "../NavBar";
 import Projects from "../Projects";
 import "antd/dist/antd.css";
 import Welcome from "../Welcome";
+import About from "../About";
 
 function Layout() {
   return (
@@ -14,11 +15,7 @@ function Layout() {
       <br></br>
       <main className={styles.main}>
         <Welcome />
-
-        <div className={styles.aboutBox}>
-          <h2 className={styles.title}>About Me:</h2>
-          <h6>about me text</h6>
-        </div>
+        <About />
         <br></br>
         <br></br>
         <br></br>

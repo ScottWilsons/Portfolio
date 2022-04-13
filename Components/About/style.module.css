@@ -1,15 +1,11 @@
-.imageBox {
-  border-radius: 150px;
-  justify-self: center;
-}
 .title {
   color: whitesmoke;
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
 }
-.titleBox {
-  color: whitesmoke;
+.aboutBox {
+  margin-top: 4%;
   display: flex;
   border-radius: 150px;
   background-color: #364d79;
@@ -17,11 +13,5 @@
   height: 300px;
   padding-left: 5%;
   padding-bottom: 0%;
-  justify-content: space-between;
-}
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+  justify-content: space-around;
 }
